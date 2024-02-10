@@ -13,20 +13,20 @@
 }
 h1 {
     color: white;
-    font-family: 'Plate Gt', sans-serif;
+    font-family: 'Plate Gt', Arial, sans-serif;
 }
 h2 {
     color: white;
-    font-family: 'Plate Gt', sans-serif;
+    font-family: 'Plate Gt', Arial, sans-serif;
     margin: 0;
 }
 h3 {
     color: white;
-    font-family: 'Plate Gt', sans-serif;
+    font-family: 'Plate Gt', Arial, sans-serif;
 }
 h4 {
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
 }
 #hero-img {
     width: 100%;
@@ -59,7 +59,7 @@ main section img {
 }
 body {
     background-color: #000814;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
