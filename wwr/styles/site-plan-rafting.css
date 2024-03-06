@@ -5,7 +5,7 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @font-face {
   font-family: 'Plate Gt'; /* A name to use later */
-  src: url('/wwr/fonts/Plate\ Gt\ One\ Three\ MT\ Std\ Bd.otf') format('opentype');
+  src: url('/wwr/fonts/plate-gt.otf') format('opentype');
 }
 :root {
   /* change the values below to your colors from your palette */

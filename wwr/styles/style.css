@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @font-face {
   font-family: 'Plate Gt';
-  src: url(/wwr/fonts/Plate\ Gt.otf) format('opentype');
+  src: url('/wwr/fonts/plate-gt.otf') format('opentype');;
 }
 
 .logo {
