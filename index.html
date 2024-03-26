@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="master.css" />
     <title>WDD130 Home Page</title>
 </head>
 <body>
@@ -16,5 +17,35 @@
   <a href="resume/site-plan.html">Personal Siteplan</a>
 </nav>
 <p>Nathan Covey - WDD130</p>
+<button class="accordion">What are these sites for?</button>
+<div class="panel">
+  <p>This is a collection of web pages created by Nathan Covey in his WDD 130 class.</p>
+</div>
+
+<button class="accordion">How did Nathan create these pages?</button>
+<div class="panel">
+  <p>He coded them using HTML, CSS, Javscript in Visual Studio Code, and then published them on the internet using the free GitHub pages tool.</p>
+</div>
+
+<button class="accordion">How can I learn how to build similar websites?</button>
+<div class="panel">
+  <p>A great place to start is W3 Schools, which will teach you the basics of HTML, CSS, and Javascript. From there, you can find great tutorials by searching around YouTube.</p>
+</div>
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
 </body>
 </html>
